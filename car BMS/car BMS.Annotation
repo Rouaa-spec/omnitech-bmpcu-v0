@@ -1,0 +1,14 @@
+[DesignatorManager]
+LogicalDesignator0=R30
+LogicalPartID0=1
+DocumentName0=Switch mode power supply.SchDoc
+ChannelName0=Switch mode power supply
+UniqueID0=\IJRDJNNH
+PhysicalDesignator0=R?
+PhysicalDesignatorLocked0=0
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+

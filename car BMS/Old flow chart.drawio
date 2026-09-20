@@ -1,0 +1,188 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="o1l42Uw_TTu5Q0N0lJNk">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-1" value="400VDC PV" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-2" target="-qy-GrjT_UUYtfVgsVxf-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-2" target="-qy-GrjT_UUYtfVgsVxf-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-2" value="buck-boost converter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.027;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-1" target="-qy-GrjT_UUYtfVgsVxf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-5" value="relay for security and command" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-6" target="-qy-GrjT_UUYtfVgsVxf-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-6" value="400VDC battery" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.027;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-5" target="-qy-GrjT_UUYtfVgsVxf-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-14" target="-qy-GrjT_UUYtfVgsVxf-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-14" value="current/voltage sensor 2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-19" target="-qy-GrjT_UUYtfVgsVxf-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-19" value="400VDC battery" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-20" target="-qy-GrjT_UUYtfVgsVxf-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-20" value="current/voltage sensor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-21" target="-qy-GrjT_UUYtfVgsVxf-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-21" value="voltage chopper" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-22" target="-qy-GrjT_UUYtfVgsVxf-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="630" />
+              <mxPoint x="600" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-22" value="400VDC motor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-26" target="-qy-GrjT_UUYtfVgsVxf-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-26" value="current/voltage sensor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="-qy-GrjT_UUYtfVgsVxf-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="421" />
+              <mxPoint x="610" y="421" />
+              <mxPoint x="610" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-29" value="STM32G474RE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-32" target="-qy-GrjT_UUYtfVgsVxf-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-32" value="switching power supply" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-34" target="-qy-GrjT_UUYtfVgsVxf-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-34" value="400VDC battery" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-36" target="-qy-GrjT_UUYtfVgsVxf-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-36" value="12V battery" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-52" target="-qy-GrjT_UUYtfVgsVxf-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-52" value="temperature sensor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-54" target="-qy-GrjT_UUYtfVgsVxf-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="520" />
+              <mxPoint x="540" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-54" value="temperature sensor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-55" target="-qy-GrjT_UUYtfVgsVxf-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="490" />
+              <mxPoint x="540" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-55" value="speed sensor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.603;entryY=1.096;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-22" target="-qy-GrjT_UUYtfVgsVxf-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="630" />
+              <mxPoint x="762" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="-qy-GrjT_UUYtfVgsVxf-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-68" value="switching command&lt;div&gt;from the NE 555&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="333" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-70" value="switching command&lt;div&gt;from the STM32&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="-qy-GrjT_UUYtfVgsVxf-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-75" value="display screen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-76" value="driver inputs" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-79" value="switching command&lt;div&gt;from the STM32&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="590" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="-qy-GrjT_UUYtfVgsVxf-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="630" as="sourcePoint" />
+            <mxPoint x="470" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qy-GrjT_UUYtfVgsVxf-81" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-qy-GrjT_UUYtfVgsVxf-29" target="-qy-GrjT_UUYtfVgsVxf-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="420" />
+              <mxPoint x="620" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
