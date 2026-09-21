@@ -43,9 +43,9 @@ Le reste de la topologie, les blocs de conditionnement analogique et la chaîne 
       <sub><b>Vue 3D - Face supérieure</b></sub>
       </td>
     <td align="center">
-<img width="400" alt="Bottom PCB Side" src="https://github.com/user-attachments/assets/dbae8913-e4f8-47ef-aede-82059416345d" />
-<br />
-<sub><b>Vue 3D - Face inférieure</b></sub>
+<img width="500" alt="Bottom PCB Side" src="https://github.com/user-attachments/assets/dbae8913-e4f8-47ef-aede-82059416345d" />
+      <br />
+      <sub><b>Vue 3D - Face inférieure</b></sub>
 </td>
 </tr>
 </table>
