@@ -18,6 +18,7 @@ Le diagramme ci-dessous illustre l'organisation des blocs de puissance, de l'ali
 *   **Conditionnement et sécurité :** Mesures de tension et de courant isolées galvaniquement (AMC1311B et ACS37002), associées à des circuits de protection étagés (MOV, TVS, fusible DC de 25A) et un relais de déconnexion d'urgence.
 
 ---
+<img width="2720" height="2880" alt="bmpcu_architecture" src="https://github.com/user-attachments/assets/cef6b3b5-3faf-451f-a99a-2d01341e0e71" />
 
 ## 🛠️ Design Review et Axes d'Amélioration Pour La Version Future du (Prototype V0)
 
