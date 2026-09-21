@@ -10,7 +10,9 @@ Le système est entièrement conçu sous **Altium Designer**.
 
 Le diagramme ci-dessous illustre l'organisation des blocs de puissance, de l'alimentation logique isolée, du conditionnement des signaux et des interfaces utilisateur de la carte.
 
-<img width="600" alt="bmpcu_architecture" src="https://github.com/user-attachments/assets/cef6b3b5-3faf-451f-a99a-2d01341e0e71" />
+<p align="center">
+<img width="500" alt="bmpcu_architecture" src="https://github.com/user-attachments/assets/cef6b3b5-3faf-451f-a99a-2d01341e0e71" />
+</p>
 
 ### Blocs matériels principaux :
 *   **Contrôle de charge :** Convertisseur Buck-Boost (topologie SEPIC) dimensionné pour réguler le flux d'une source photovoltaïque.
@@ -33,10 +35,26 @@ La dissipation thermique actuelle du prototype est insuffisante et présente un 
 
 Le reste de la topologie, les blocs de conditionnement analogique et la chaîne d'isolation des signaux restent valides pour l'architecture cible.
 
+<table align="center">
+  <tr>
+    <td align="center">
+<img width="400" height="740" alt="Top PCB Side" src="https://github.com/user-attachments/assets/e2a2c56e-23b5-4350-9792-82699c5793db" />
+      <br />
+      <sub><b>Vue 3D - Face supérieure</b></sub>
+      </td>
+    <td align="center">
+<img width="400" height="780" alt="Bottom PCB Side" src="https://github.com/user-attachments/assets/dbae8913-e4f8-47ef-aede-82059416345d" />
+<br />
+<sub><b>Vue 3D - Face inférieure</b></sub>
+</td>
+</tr>
+</table>
+
 ---
 
 ## 📁 Structure du Dépôt
 
 *   `📁 altium-design/` : Fichiers sources du projet Altium (.PrjPcb, .SchDoc, .PcbDoc).
-*   `📁 manufacturing/` : Fichiers d'export pour la fabrication de la carte (Gerber, nomenclature / BOM).
+*   `📁 manufacturin![Uploading Top PCB Side.png…]()
+g/` : Fichiers d'export pour la fabrication de la carte (Gerber, nomenclature / BOM).
 *   `📁 docs/` : Documentation technique et fiches techniques (datasheets) des composants majeurs.
