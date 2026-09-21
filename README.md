@@ -21,7 +21,7 @@ Le diagramme ci-dessous illustre l'organisation des blocs de puissance, de l'ali
 
 ---
 
-## 🛠️ Design Review et Axes d'Amélioration Pour La Version Future du (Prototype V0)
+## 🛠️ Design Review et Axes d'Amélioration Pour La Version Future (Prototype V1)
 
 Ce projet est une **première itération d'étude (Version 0)** orientée vers la validation théorique des schémas et le placement des composants. Le circuit n'a pas été fabriqué ni testé en laboratoire. Une analyse critique de la conception met en évidence plusieurs axes d'amélioration indispensables avant toute mise en production :
 
@@ -38,7 +38,7 @@ Le reste de la topologie, les blocs de conditionnement analogique et la chaîne 
 <table align="center">
   <tr>
     <td align="center">
-<img width="400" alt="Top PCB Side" src="https://github.com/user-attachments/assets/e2a2c56e-23b5-4350-9792-82699c5793db" />
+<img width="500" alt="Top PCB Side" src="https://github.com/user-attachments/assets/e2a2c56e-23b5-4350-9792-82699c5793db" />
       <br />
       <sub><b>Vue 3D - Face supérieure</b></sub>
       </td>
