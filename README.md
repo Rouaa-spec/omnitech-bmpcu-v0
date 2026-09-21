@@ -38,12 +38,12 @@ Le reste de la topologie, les blocs de conditionnement analogique et la chaîne 
 <table align="center">
   <tr>
     <td align="center">
-<img width="400" height="740" alt="Top PCB Side" src="https://github.com/user-attachments/assets/e2a2c56e-23b5-4350-9792-82699c5793db" />
+<img width="400" alt="Top PCB Side" src="https://github.com/user-attachments/assets/e2a2c56e-23b5-4350-9792-82699c5793db" />
       <br />
       <sub><b>Vue 3D - Face supérieure</b></sub>
       </td>
     <td align="center">
-<img width="400" height="780" alt="Bottom PCB Side" src="https://github.com/user-attachments/assets/dbae8913-e4f8-47ef-aede-82059416345d" />
+<img width="400" alt="Bottom PCB Side" src="https://github.com/user-attachments/assets/dbae8913-e4f8-47ef-aede-82059416345d" />
 <br />
 <sub><b>Vue 3D - Face inférieure</b></sub>
 </td>
@@ -52,9 +52,12 @@ Le reste de la topologie, les blocs de conditionnement analogique et la chaîne 
 
 ---
 
+---
+
 ## 📁 Structure du Dépôt
 
-*   `📁 altium-design/` : Fichiers sources du projet Altium (.PrjPcb, .SchDoc, .PcbDoc).
-*   `📁 manufacturin![Uploading Top PCB Side.png…]()
-g/` : Fichiers d'export pour la fabrication de la carte (Gerber, nomenclature / BOM).
-*   `📁 docs/` : Documentation technique et fiches techniques (datasheets) des composants majeurs.
+*   `📁 BMS PROJECT LIBRARIES/` : Bibliothèques de composants et empreintes (footprints) créées ou importées sous Altium Designer pour le projet.
+*   `📁 car BMS/` : Dossier principal du projet Altium Designer contenant les schémas électroniques (`.SchDoc`) et le routage du PCB multicouche (`.PcbDoc`).
+*   `📄 .gitignore` : Fichier de configuration Git servant à exclure les fichiers de logs et sauvegardes automatiques d'Altium.
+*   `📄 LICENSE` : Licence de distribution du projet.
+*   `📄 README.md` : Documentation et analyse critique du système.
