@@ -11,7 +11,7 @@ Le système est entièrement conçu sous **Altium Designer**.
 Le diagramme ci-dessous illustre l'organisation des blocs de puissance, de l'alimentation logique isolée, du conditionnement des signaux et des interfaces utilisateur de la carte.
 
 <p align="center">
-<img width="500" alt="BMPCU flowchart" src="https://github.com/user-attachments/assets/67bb0411-e7cd-4e74-9770-acdd81e4471c" />
+<img width="700" alt="BMPCU flowchart" src="https://github.com/user-attachments/assets/67bb0411-e7cd-4e74-9770-acdd81e4471c" />
 </p>
 
 ### Blocs matériels principaux :
